@@ -15,13 +15,8 @@
 .coffee__item {
   width: 47%;
   background-color: lightgray;
-  margin: 1rem;
+  margin: 0.5rem;
   padding-top: 0;
-}
-@media screen and (min-width:480px){
-    .coffee__item {
-        width: 98%;
-    }
 }
 
 .coffee__img-container {
@@ -60,7 +55,15 @@
   padding-left: 1rem;
 }
 
-.coffee__span{
-    color: blue;
-    text-decoration: underline;
+.coffee__span {
+  color: blue;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+  .coffee__item {
+    width: 98%;
+    margin: 1rem 0;
+    margin-left: 3rem;
+  }
 }
