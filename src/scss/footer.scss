@@ -8,8 +8,8 @@ $background-footer: #343a40;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 15rem;
-    padding-top: 3rem;
+    height: 10rem;
+    padding-top: 1rem;
     background-color: $background-footer;
     color: $white;
 
@@ -27,7 +27,7 @@ $background-footer: #343a40;
     }
 
     &__hashtag {
-        margin: 3rem 0 0 0;
+        margin: 2rem 0 0 0;
         text-align: center;
         letter-spacing: 1px;
         line-height: 28px;
