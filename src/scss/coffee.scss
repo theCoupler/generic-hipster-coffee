@@ -17,15 +17,11 @@
   margin: 1rem;
   padding-top: 0;
 }
-.coffee__desc {
-}
+
 .coffee__img-container {
   & img {
     margin: 0;
     width: 100%;
-    //    position: absolute;
-    //    left: 0;
-    //    top: 0;
   }
 }
 
@@ -34,7 +30,7 @@
 
   & h2 {
     font-size: 2rem;
-
+    margin: 0;
     text-transform: uppercase;
     font-weight: lighter;
   }
@@ -48,24 +44,10 @@
   padding: 1rem;
 }
 
-// @media screen and (max-width:480px){
-// .coffee__item {
-//   width: 98%;
-//   background-color: lightgray;
-//   margin: 1rem;
-//   padding-top: 0;
-// }
-// }
-
 .coffee__overtext {
   background-color: lightgray;
-  
 }
 
- .coffee__overtext p {
-  }
-
-  .w{
-    text-transform: uppercase;
-
-  }
+.w {
+  text-transform: uppercase;
+}
