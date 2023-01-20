@@ -1,0 +1,41 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "Roboto Condensed";
+    width: 80%;
+    border: 1px red solid;
+    margin: 5rem auto;
+
+    &__main-heading {
+        font-size: 3rem;
+    }
+    &__main {
+        display: flex;
+        flex-direction: column;
+        min-width: 25rem;
+        padding: 22px;
+        border: blue solid 1px;
+    }
+    
+    &__heading {
+        height: 10%;
+        width: 100%;
+        margin: 0;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border: red solid 1px;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+        width: 100%;
+    }
+
+}
