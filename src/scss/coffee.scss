@@ -1,0 +1,71 @@
+.coffee {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Roboto Condensed";
+}
+
+.coffee__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.coffee__item {
+  width: 47%;
+  background-color: lightgray;
+  margin: 1rem;
+  padding-top: 0;
+}
+.coffee__desc {
+}
+.coffee__img-container {
+  & img {
+    margin: 0;
+    width: 100%;
+    //    position: absolute;
+    //    left: 0;
+    //    top: 0;
+  }
+}
+
+.coffee__top {
+  margin: 0 1rem;
+
+  & h2 {
+    font-size: 2rem;
+
+    text-transform: uppercase;
+    font-weight: lighter;
+  }
+}
+
+.ital {
+  font-style: italic;
+}
+
+.coffee__desc {
+  padding: 1rem;
+}
+
+// @media screen and (max-width:480px){
+// .coffee__item {
+//   width: 98%;
+//   background-color: lightgray;
+//   margin: 1rem;
+//   padding-top: 0;
+// }
+// }
+
+.coffee__overtext {
+  background-color: lightgray;
+  
+}
+
+ .coffee__overtext p {
+  }
+
+  .w{
+    text-transform: uppercase;
+
+  }
