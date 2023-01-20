@@ -1,7 +1,8 @@
 .coffee {
   width: 80%;
-  margin: 0 auto;
+  margin: 5rem auto;
   font-family: "Roboto Condensed";
+  padding-top: 5rem;
 }
 
 .coffee__container {
@@ -17,6 +18,11 @@
   margin: 1rem;
   padding-top: 0;
 }
+@media screen and (min-width:480px){
+    .coffee__item {
+        width: 98%;
+    }
+}
 
 .coffee__img-container {
   & img {
@@ -29,7 +35,7 @@
   margin: 0 1rem;
 
   & h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 0;
     text-transform: uppercase;
     font-weight: lighter;
@@ -50,4 +56,11 @@
 
 .w {
   text-transform: uppercase;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+
+.coffee__span{
+    color: blue;
+    text-decoration: underline;
 }

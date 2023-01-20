@@ -21,9 +21,15 @@
     font-size: 1rem;
     padding: 1.25rem 2rem;
 
+
+
     text-decoration: none;
     color: rgb(157, 157, 157);
   }
+
+   &__link:hover{
+    color: #CED4DA ;
+   }
 }
 
 @media screen and (max-width:480px) {

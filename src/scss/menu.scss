@@ -5,9 +5,12 @@
     font-family: "Roboto Condensed";
     width: 80%;
     margin: 5rem auto;
+    
 
     &__main-heading {
+        padding-top: 5rem;
         font-size: 3rem;
+        margin-bottom: 0;
     }
     &__main {
         display: flex;
